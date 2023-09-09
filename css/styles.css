@@ -1,37 +1,22 @@
-h1, h2, h3, h4, h5{
-  font-family: UniversalSans-864;
-}
-
-p{
-  font-family: UniversalSans-450;
-
+h1, h2, h3, h4, h5, p{
+  font-family: Benzin-Regular;
 }
 
 
-@font-face {
-  font-family:UniversalSans-450 ;
-  src: url(UniversalSans-v1-2-0-10-20-111111112111-01-450-TRIAL.ttf);
-}
 
-@font-face {
-  font-family:UniversalSans-864 ;
-  src: url(UniversalSans-v1-2-0-10-20-111111112111-01-864-TRIAL.ttf);
-}
 
-@font-face {
-  font-family:DMSerifDisplay ;
-  src: url(DMSerifDisplay-Regular.ttf);
-}
 
-@font-face {
-  font-family:DMSerifDisplay-Italic ;
-  src: url(DMSerifDisplay-Italic.ttf);
-}
+
 
 
 @font-face {
   font-family:Benzin ExtraBold ;
   src: url(BenzinExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Benzin-Regular;
+  src: url(Benzin-Regular.ttf);
 }
 
 /* Navbar */
@@ -52,12 +37,17 @@ p{
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: UniversalSans-450;
+  font-family: Benzin-Regular;
   font-weight: 500;
   margin-left: 80px;
   margin-top:20px;
   
 
+}
+
+.navbar-toggler-icon{
+  font-size: 2em;
+  border-width: 2px;
 }
 
 
@@ -118,14 +108,14 @@ padding-left: 0;
 .title-text{
   margin-top:40px;
   font-size: 4rem;
-  font-family: DMSerifDisplay;
+  font-family: Benzin-Regular;
   margin-bottom: 5%;
 
 
 }
 
 .title-subtext{
-  font-family: UniversalSans-450;
+  font-family: Benzin-Regular;
   margin-bottom: 7%;
 }
 
@@ -136,7 +126,7 @@ padding-left: 0;
   
   padding:5px 30px;
   font-size:2rem;
-  font-family: UniversalSans-864;
+  font-family: Benzin-Regular;
   margin-bottom: 20%;
   border-radius: 1rem;
   border-width: 2px;
@@ -199,7 +189,7 @@ padding-left: 0;
 
 #about-us p{
   font-size: 1.5rem;
-  font-family: UniversalSans-450;
+  font-family: Benzin-Regular;
 }
 
 .about-us-img{
@@ -264,12 +254,12 @@ padding-left: 0;
 
 .intro-content-1 h1{
    font-size:3.5rem;
-   font-family: DMSerifDisplay;
+   font-family: Benzin-Regular;
  }
 
 .intro-content-1 p{
   font-size:1.5rem;
-  font-family: UniversalSans-450;
+  font-family: Benzin-Regular;
 }
 
 
@@ -310,12 +300,12 @@ padding-left: 0;
 
 .intro-content-2 h1{
    font-size:3.5rem;
-   font-family: DMSerifDisplay;
+   font-family: Benzin-Regular;
  }
 
 .intro-content-2 p{
   font-size:1.5rem;
-  font-family: UniversalSans-450;
+  font-family: Benzin-Regular;
 }
 
 
@@ -352,15 +342,24 @@ padding-left: 0;
 
  }
 
-
+.video-container{
+  padding-top:56.25%;
+  height:0px;
+  position: relative;
+  width: 100%;
+}
  .trailer-video{
-    width:100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
  
 }
 
 .trailer-header{
   font-size:5rem;
-  font-family: DMSerifDisplay;
+  font-family: Benzin-Regular;
   margin-bottom: 5%;
 }
 
@@ -374,7 +373,7 @@ padding-left: 0;
 
 .partners-header{
   font-size:5rem;
-  font-family: DMSerifDisplay;
+  font-family: Benzin-Regular;
   margin-bottom: 5%;
 }
 
@@ -404,12 +403,12 @@ padding-left: 0;
 
 #team h1{
   font-size:5rem;
-  font-family: DMSerifDisplay;
+  font-family: Benzin-Regular;
 }
 
 
 .team-img{
-  width: 80%;
+  width: 90%;
 
   margin-bottom:10%;
 
@@ -418,6 +417,18 @@ padding-left: 0;
 .team-img:hover{
   width: 85%;
 
+}
+
+.team-member{
+  margin-bottom: 5%;
+}
+
+.team-member h2{
+  font-size: 2.5rem;
+}
+
+.team-member p{
+  font-size: 1.5rem;
 }
 
 
@@ -447,11 +458,11 @@ padding-left: 0;
 }
 
 .cover-item h2{
-  font-family: UniversalSans-864;
+  font-family: Benzin-Regular;
 }
 
 .cover-item p{
-  font-family: UniversalSans-450;
+  font-family: Benzin-Regular;
 }
 
 #sign-up-form{
@@ -464,7 +475,7 @@ padding-left: 0;
 
 .sign-up-title{
   font-size:4rem;
-  font-family: DMSerifDisplay;
+  font-family: Benzin-Regular;
 }
 
 .sign-up-input{
@@ -482,7 +493,7 @@ padding-left: 0;
   background-size: cover;
   padding:5px 30px;
   font-size:2rem;
-  font-family: UniversalSans-864;
+  font-family: Benzin-Regular;
   margin-bottom: 20%;
   border-radius: 1rem;
   border-width: 2px;
@@ -497,7 +508,7 @@ padding-left: 0;
   background-size: cover;
   padding:5px 30px;
   font-size:2rem;
-  font-family: UniversalSans-864;
+  font-family: Benzin-Regular;
   border-radius: 1rem;
   border-width: 2px;
   margin-top: 5%;
@@ -526,12 +537,12 @@ padding-left: 0;
 
 }
 .social-link h2{
-  font-family: UniversalSans-864;
+  font-family: Benzin-Regular;
 }
 
 .social-link p{
   font-size: 1.5rem;
-  font-family: UniversalSans-450;
+  font-family: Benzin-Regular;
 }
 
 .social-logo{
@@ -559,8 +570,12 @@ padding-left: 0;
 
 @media only screen and (max-width: 1080px)  {
 
+  
   body, .intro-content-1, .intro-content-2  {
     text-align: center;
+  }
+  .nav-link{
+    font-size: 2rem;
   }
 
   #title{
@@ -568,7 +583,7 @@ padding-left: 0;
 
     background-image: url("");
 
-    max-height: 1200px;
+    max-height: 1500px;
   }
 
   .title-content{
@@ -590,16 +605,20 @@ padding-left: 0;
   
   }
 
+
+
  
 
 
 
-  .about-us-content h1{
+  #about-us h1{
     text-align:center;
   }
  
-  .about-us-content p{
+  #about-us p{
     text-align:center;
+    font-size: 2rem;
+   
   }
  
   .sub-section-1{
@@ -624,16 +643,31 @@ padding-left: 0;
     background-image: url("");
   }
 
+  .intro-content-1 p{
+    font-size: 2rem;
+  }
 
-
-  .roadmap-icon{
-    width:20%;
+  .intro-content-2 p{
+    font-size: 2rem;
   }
 
 
-  .scroll-button{
-     display:none;
-   }
+  #trailer{
+    padding: 7%;
+  }
+
+
+  .team-img{
+
+  
+    margin-bottom:5%;
+  
+  }
+
+
+  .team-member p{
+    font-size: 2rem;
+  }
   .cover-container{
        margin-left:70px;
     }
