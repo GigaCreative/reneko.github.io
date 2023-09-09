@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, p{
 
 
 
+
 /* Title */
 
 #title {
@@ -575,7 +576,8 @@ padding-left: 0;
     text-align: center;
   }
   .nav-link{
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-left: 0;
   }
 
   #title{
